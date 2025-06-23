@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 transition-colors;
+  }
+  .input-field {
+    @apply w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600;
+  }
+}
+  
+
+        /* Target the active dot */
+        .slick-dots li.slick-active div {
+          background-color: white !important; /* White active dot */
+          border-color: black !important;
+        }
+        /* Target all dots */
+        .slick-dots li button:before {
+          content: '' !important; /* Hide default dot */
+        }
+        .slick-dots li {
+          margin: 0 4px !important; /* Adjust spacing between dots */
+        }
+      
