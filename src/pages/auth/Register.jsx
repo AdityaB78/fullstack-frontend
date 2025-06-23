@@ -4,7 +4,7 @@ import { useNavigate, Link } from 'react-router-dom'; // Added Link for navigati
 import { registerUser } from '../../store/slices/authSlice';
 import Button from '../../components/Button'; // Assuming your Button component is styled well
 import ErrorMessage from '../../components/ErrorMessage';
-import { validateEmail, validatePassword } from '../../utils/ValidateForm'; // Corrected capitalization based on your import
+import { validateEmail, validatePassword } from '../../utils/validateForm'; // Corrected capitalization based on your import
 import { FaUser, FaEnvelope, FaLock, FaUserPlus } from 'react-icons/fa'; // Added icons
 
 const Register = () => {
