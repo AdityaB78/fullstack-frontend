@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { getAllListings } from '../services/api';
+import { getAllListings } from '../services/Api';
 import { debounce } from '../utils/Debounce';
 
 const useListings = () => {
