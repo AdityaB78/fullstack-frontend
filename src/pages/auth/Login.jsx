@@ -4,7 +4,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { loginUser } from '../../store/slices/authSlice';
 import Button from '../../components/Button';
 import ErrorMessage from '../../components/ErrorMessage';
-import { validateEmail, validatePassword } from '../../utils/validateForm';
+import { validateEmail, validatePassword } from '../../utils/ValidateForm';
 import { FaEnvelope, FaLock, FaSignInAlt } from 'react-icons/fa';
 
 const Login = () => {
