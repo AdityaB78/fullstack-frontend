@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom'; // Using Link for internal navigation
-import { getAllListings, deleteListing } from '../services/api';
+import { getAllListings, deleteListing } from '../services/Api';
 import PropertyCard from '../components/PropertyCard'; // Assuming this component is well-styled
 import Button from '../components/Button'; // Assuming this component is well-styled
 import ErrorMessage from '../components/ErrorMessage';

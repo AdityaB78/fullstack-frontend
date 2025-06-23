@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import { createBooking } from '../../services/api';
+import { createBooking } from '../../services/Api';
 
 // Async thunk to handle booking creation
 export const bookStay = createAsyncThunk(
