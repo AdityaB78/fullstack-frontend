@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://fullstack-backend-gqj3.vercel.app/api ',
+  baseURL: 'http://localhost:5000/api',
   timeout: 5000,
 });
 
